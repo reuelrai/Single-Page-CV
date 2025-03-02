@@ -1,10 +1,31 @@
-html{
+html {
     background-color: whitesmoke;
     font-family: 'Arial', sans-serif;
-    margin: 0;
-    position: absolute;
     font-family: 'Arial', sans-serif;
-    margin-top: 3rem;
+    text-align: center;
     margin-left: 5rem;
     margin-right: 5rem;
+
+
+}
+
+section.projects,
+section.education,
+section.skills {
+    text-align: left;
+}
+
+section.projects h3,
+section.education h3,
+section.skills h3 {
+    font-weight: bold;
+    font-size: 1.5rem;
+    text-decoration: underline;
+}
+
+section.projects h4,
+section.education h4,
+section.skills h4 {
+    font-weight: bold;
+    font-size: 1rem;
 }
